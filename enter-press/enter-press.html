@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Enter Press</title>
+    <script type='text/javascript' src='../lib/bower/knockout/dist/knockout.js'></script>
+    <script type='text/javascript' src='../lib/bower/jquery/dist/jquery.js'></script>
+  </head>
+  <body>
+    <div id='test'>
+      <textarea id='my-text-area' data-bind="value: textContents, valueUpdate:'input', onEnterPress: doMyStuff"></textarea>
+    </div>
+    <script type='text/javascript' src='enter-press.js'></script>
+  </body>
+</html>

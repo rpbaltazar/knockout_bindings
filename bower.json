@@ -1,0 +1,21 @@
+{
+  "name": "knockout_bindings",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rpbaltazar/knockout_bindings",
+  "authors": [
+    "Rui Baltazar <rui.p.baltazar@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "~3.2.0",
+    "jquery": "~2.1.3"
+  }
+}
