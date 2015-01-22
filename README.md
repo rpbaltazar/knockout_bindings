@@ -8,3 +8,5 @@ Currently available bindings:
 
 1. enter-press
   On Enter press perform an action, while pressing shift+Enter adds a new line to the input
+2. webshim-datepicker
+  Initialize the datepicker by himself, avoiding having to call updatePolyfill whenever a new datepicker is added.
