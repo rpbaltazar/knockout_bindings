@@ -6,7 +6,9 @@ This repo contains working examples for each knockout binding and assumes that k
 
 Currently available bindings:
 
-1. enter-press
+1. **enter-press**
+
   On Enter press perform an action, while pressing shift+Enter adds a new line to the input
-2. webshim-datepicker
+2. **webshim-datepicker**
+
   Initialize the datepicker by himself, avoiding having to call updatePolyfill whenever a new datepicker is added.
