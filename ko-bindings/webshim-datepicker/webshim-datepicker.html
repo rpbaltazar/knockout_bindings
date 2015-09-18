@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Webshim datepicker</title>
-    <script type='text/javascript' src='../lib/bower/knockout/dist/knockout.js'></script>
-    <script type='text/javascript' src='../lib/bower/jquery/dist/jquery.js'></script>
-    <script type='text/javascript' src='../lib/bower/modernizr/modernizr.js'></script>
-    <script type='text/javascript' src='../lib/bower/webshim/js-webshim/minified/polyfiller.js'></script>
-    <script type='text/javascript' src='../lib/bower/moment/moment.js'></script>
+    <script type='text/javascript' src='../../lib/bower/knockout/dist/knockout.js'></script>
+    <script type='text/javascript' src='../../lib/bower/jquery/dist/jquery.js'></script>
+    <script type='text/javascript' src='../../lib/bower/modernizr/modernizr.js'></script>
+    <script type='text/javascript' src='../../lib/bower/webshim/js-webshim/minified/polyfiller.js'></script>
+    <script type='text/javascript' src='../../lib/bower/moment/moment.js'></script>
   </head>
   <body>
     <div id='test'>
       <input id='my-datepicker' name='mydatepicker' data-bind="webshimDatepicker: selectedDate, setTodayAsDefault: false" type="date"></input>
       <div>
-        <p>Datepicker allowing empty value: <span data-bind="text:selectedDate"></span></p>
+        <p>Datepicker allowing initial empty value: <span data-bind="text:selectedDate"></span></p>
       <input id='my-datepicker-one' name='mydatepickerone' data-bind="webshimDatepicker: selectedDateNotEmpty" type="date"></input>
       <div>
-        <p>Datepicker not allowing empty value: <span data-bind="text:selectedDateNotEmpty"></span></p>
+        <p>Datepicker not allowing initial empty value: <span data-bind="text:selectedDateNotEmpty"></span></p>
       </div>
     </div>
 
