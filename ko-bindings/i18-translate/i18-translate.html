@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>i18 Translation</title>
+    <script type='text/javascript' src='../../lib/bower/knockout/dist/knockout.js'></script>
+    <script type='text/javascript' src='../../lib/bower/jquery/dist/jquery.js'></script>
+    <script type='text/javascript' src='../../lib/bower/modernizr/modernizr.js'></script>
+  </head>
+  <body>
+    <div id='test'>
+      <div>
+	<p data-bind="i18Text: { i18: 'introText'}"></p>
+      </div>
+
+      <div>
+	<p data-bind="i18Text: { i18: 'noTranslation'}"></p>
+      </div>
+
+      <button type="button" data-bind="click: toggleLanguage">
+	<span data-bind="i18Text: { i18: 'toggleLanguage' }"></span>
+      </button>
+    </div>
+
+
+
+    <script type='text/javascript' src='i18-translate.js'></script>
+  </body>
+</html>
